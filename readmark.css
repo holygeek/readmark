@@ -1,0 +1,9 @@
+div#readmarkOverlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: .5;
+    z-index: 9999;
+    background: yellow;
+}

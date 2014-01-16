@@ -1,0 +1,20 @@
+{
+  "name": "readmark",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Show overlay on page down to show already seen content",
+  "content_scripts": [
+  {
+    "run_at": "document_end",
+    "matches": [
+      "<all_urls>"
+      ],
+    "js": [
+      "readmark.js"
+      ],
+    "css": [
+      "readmark.css"
+      ]
+  }
+  ]
+}
